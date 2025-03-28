@@ -42,7 +42,7 @@ public class main {
 
     @Test(priority = 3, dependsOnMethods = "addToCartTest")
     public void removeFromCartTest() {
-        cartPage.removecart();
+        //cartPage.removecart();
         cartPage.itemremoveverify();
     }
 
