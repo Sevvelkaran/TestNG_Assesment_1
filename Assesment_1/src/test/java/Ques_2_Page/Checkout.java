@@ -35,7 +35,7 @@ public class Checkout extends BAsePage {
 
     public void verify() {
         String message = driver.findElement(msge).getText();
-        Assert.assertEquals(message, "Thank you for your order!", "failed");
+        Assert.assertEquals(message, "Thank you for your order", "failed");
     }
 }
 
